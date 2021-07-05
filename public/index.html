@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link rel="icon" href="data:image/png;base64,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"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
+    <meta name="description" content="Web site created using create-react-app" />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
     <!--
       manifest.json provides metadata used when your web app is installed on a
@@ -24,20 +23,14 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
-  </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous" />
+    <title>To Do App</title>
+</head>
+
+<body>
+
     <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
+</body>
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
-  </body>
 </html>

@@ -1,0 +1,42 @@
+.header {
+    text-align: center;
+    margin-top: 40px;
+    color: rgb(248, 248, 248);
+    font-family: Lucida Console;
+    font-size: xxx-large;
+    opacity: 80%;
+}
+
+.details {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 80px;
+    color: rgb(248, 248, 248);
+    ;
+    font-family: Lucida Sans;
+}
+
+.signin>h3 {
+    text-align: center;
+}
+
+.signup>h3 {
+    text-align: center;
+}
+
+.vl {
+    text-align: center;
+}
+
+.line {
+    width: 1px;
+    /* Line width */
+    background-color: rgb(99, 97, 97);
+    /* Line color */
+    height: 100%;
+    /* Override in-line if you want specific height. */
+}
+
+.buttonHolder {
+    text-align: center;
+}
