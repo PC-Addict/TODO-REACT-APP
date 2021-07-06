@@ -17,7 +17,7 @@ function Home() {
                     {/* signup */}
                     <Col md={4}>
                         <Form className='signup'>
-                            <h3>Register</h3>
+                            <h3>Register</h3> <br />
                             <Form.Group className="mb-3" controlId="formBasicEmail">
                                 <Form.Label>Username</Form.Label>
                                 <Form.Control type="text" placeholder="Enter Userame" />
@@ -34,7 +34,7 @@ function Home() {
                                 <Form.Control type="password" placeholder="Password" />
                             </Form.Group>
                             <br />
-                            <div class="buttonHolder">
+                            <div class="buttonHolder"> 
                                 <Button variant="dark" type="submit" >
                                     Sign Up
                                 </Button>
@@ -48,7 +48,7 @@ function Home() {
                     {/* Signin */}
                     <Col md={4} >
                         <Form className='signin' >
-                            <h3>Sign In</h3>
+                            <h3>Sign In</h3><br/>   
                             <Form.Group className="mb-3" controlId="formBasicEmail">
                                 <Form.Label>Username</Form.Label>
                                 <Form.Control type="text" placeholder="Enter Username" />
